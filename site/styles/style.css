@@ -1,0 +1,116 @@
+header{
+    
+    background-color: silver;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    border-radius: 15px;
+}
+.logo{
+    
+}
+.navigation{
+    display: flex;
+}
+.link{
+    padding: 8pt;
+}
+.link a{
+    text-decoration: none;
+    color:black;
+    padding: 15px;
+    
+}
+.link a:hover{
+    background-color:  rgb(143, 143, 143);
+    
+    border-radius: 15px;
+}
+.booking{
+    
+    justify-self: center;
+    background-color: rgb(143, 143, 143);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    width: auto;
+    
+}
+.booking image {
+    max-width: 100%; /* Для того чтобы изображение не выходило за пределы родительского контейнера */
+    height: auto; /* Чтобы сохранить пропорции изображения */
+}
+.about {
+    justify-self: center;
+    background-color: rgb(143, 143, 143);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    width: auto;
+    
+}
+.blocks{
+    
+    justify-content: space-around;
+}
+.rate td{
+    text-align: left;
+    padding-left: 25px;
+}
+.search{
+    justify-self: center;
+    background-color: rgb(143, 143, 143);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    width: auto;
+}
+.search table td{
+    text-align: left;
+    padding-left: 25px;
+    width: 10%
+}
+.promo{
+    justify-self: center;
+    background-color: rgb(143, 143, 143);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    width: auto;
+}
+.closepromo{
+    justify-self: center;
+    background-color: rgb(143, 143, 143);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    width: auto;
+}
+footer{
+    background-color: silver;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    border-radius: 15px;
+}
